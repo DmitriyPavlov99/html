@@ -1,0 +1,80 @@
+
+   .background {
+        font-family: 'Open Sans', sans-serif;
+font-family: 'Oswald', sans-serif;
+        background-image: url(/Homework_Lesson_2-1/Photo/Road.jpg);
+        background-size: cover;
+        width: 1000px;
+        text-align: center;
+        
+        width: 1000px;
+        height: 700px;
+        margin: 0 auto;
+}
+
+   P { 
+font-size: 24pt;
+color:white
+
+       }
+       h1 {
+        
+        font-size: 36pt;
+        color:white
+       }
+       h2 {
+        
+font-size: 24pt;
+color:white
+       }
+       li {
+        
+        font-size: 24pt;
+        color:white
+       }
+     
+.ul {
+        
+        text-align: left;
+        width: 1000px;
+}
+#center-two {
+       
+        text-align: center;
+        font-size: 24pt;
+        color: white;
+
+}
+
+
+.box-one {
+        border: 2px;
+        width: 1000px;
+        height: 1200px;
+        margin: 0 auto;
+        text-align: left;
+}
+.box-two {
+        border: 1px;
+        width: 1000px;
+        height: 1100px;
+        margin: 0 auto;
+        text-align: left;
+}
+.box-three {
+        
+        width: 1000px;
+        height: 800px;
+        margin: 0 auto;
+        text-align: right;
+}
+.box-four {
+        background-image: url(./Photo/4\ стеллар.jpg);background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        
+        border: 1px solid rgb(255, 255, 255);
+        width: 1000px;
+        height: 800px;
+        margin: 0 auto;
+}
