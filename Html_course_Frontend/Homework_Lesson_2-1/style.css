@@ -2,7 +2,7 @@
    .background {
         font-family: 'Open Sans', sans-serif;
 font-family: 'Oswald', sans-serif;
-        background-image: url(/Homework_Lesson_2-1/Photo/Road.jpg);
+        background-image: url(./Photo/Background.jpg);
         background-size: cover;
         width: 1000px;
         text-align: center;
@@ -69,12 +69,12 @@ color:white
         text-align: right;
 }
 .box-four {
-        background-image: url(./Photo/4\ стеллар.jpg);background-size: contain;
+        background-image: url(./Photo/Film4.jpg);background-size: contain;
         background-repeat: no-repeat;
         background-position: center;
-        
         border: 1px solid rgb(255, 255, 255);
         width: 1000px;
         height: 800px;
         margin: 0 auto;
+       
 }
