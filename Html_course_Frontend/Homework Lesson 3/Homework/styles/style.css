@@ -1,0 +1,134 @@
+body {
+  background-color: #f9f9f9;
+  margin: 0px 166px auto;
+  font-family: "Open Sans", sans-serif;
+}
+.wrapper {
+  width: 1000px;
+  margin: 0 auto;
+  height: 800px;
+  background-color: white;
+  padding: 56px 40px 130px 40px;
+  box-shadow: 3px 0px 15px #dadada;
+}
+
+.logo {
+  width: 50px;
+
+  display: block;
+}
+.logo img {
+  width: 440px;
+  height: 120px;
+}
+.nav-menu {
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  height: 40px;
+  padding: 0px 2px;
+  line-height: 40px;
+  background-color: #515050;
+  font-size: 0;
+  margin-top: 12px;
+}
+
+.nav-menu li {
+  display: inline-block;
+
+  font-size: 15px;
+}
+
+.nav-menu a {
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  height: 40px;
+  padding: 0px 64px;
+  line-height: 40px;
+}
+
+.active {
+  background-color: rgb(29, 26, 26);
+}
+
+.active-side {
+  background-color: #858080;
+}
+
+.nav-menu li:hover {
+  background-color: rgb(41, 30, 41);
+}
+
+.foot-menu li:hover {
+  background-color: rgb(137, 148, 148);
+}
+.side-menu li:hover {
+  background-color: #858080;
+}
+.main {
+  overflow: auto;
+  margin-top: 40px;
+}
+.side-menu {
+  width: 240px;
+  float: left;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.side-menu a {
+  color: #000;
+  text-decoration: none;
+  display: block;
+  padding: 15px 40px 15px 20px;
+}
+.side-menu li {
+  border-top: 1px solid #c7c7c7;
+  border-right: 1px solid #c7c7c7;
+  border-left: 1px solid #c7c7c7;
+}
+.borderbottom {
+  border-bottom: 1px solid #c7c7c7;
+}
+.main-content {
+  width: 700px;
+  float: right;
+}
+.main-img {
+  text-align: center;
+  padding: 20px 50px 25px 70px;
+  border: 1px solid #e1e1e1;
+}
+
+.main-content p {
+  margin: 20px 0 0 20px;
+}
+
+.footer {
+  text-align: center;
+}
+
+.foot-menu {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  display: inline-block;
+  height: 40px;
+  padding: 0 2px;
+  line-height: 40px;
+  background-color: #e1e1e1;
+}
+
+.foot-menu li {
+  display: inline-block;
+  font-size: 15px;
+}
+
+.foot-menu a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  display: inline-block;
+  height: 40px;
+  padding: 0px 64px;
+  line-height: 40px;
+}
