@@ -11,10 +11,10 @@ body {
   padding: 56px 40px 130px 40px;
   box-shadow: 3px 0px 15px #dadada;
 }
-
+/* header 
+================================================================ */
 .logo {
   width: 50px;
-
   display: block;
 }
 .logo img {
@@ -66,6 +66,9 @@ body {
 .side-menu li:hover {
   background-color: #858080;
 }
+
+/* main
+================================================================ */
 .main {
   overflow: auto;
   margin-top: 40px;
@@ -104,7 +107,8 @@ body {
 .main-content p {
   margin: 20px 0 0 20px;
 }
-
+/* footer
+================================================================ */
 .footer {
   text-align: center;
 }
