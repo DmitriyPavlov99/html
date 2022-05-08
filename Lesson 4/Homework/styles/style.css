@@ -1,5 +1,5 @@
 body {
-  background: #EDF1F3;
+  background: #edf1f3;
 }
 .wrapper {
   width: 1260px;
@@ -221,7 +221,6 @@ a {
   color: #000000a3;
   font-size: 14px;
   line-height: 16px;
-  
 }
 
 .footer-bottom {
@@ -254,7 +253,7 @@ a {
 }
 
 li.foot-set-pad:hover {
-  color: #1C67C0;
+  color: #1c67c0;
 }
 
 .footer-bottom {
