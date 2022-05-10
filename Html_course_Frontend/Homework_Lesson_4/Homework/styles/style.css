@@ -73,6 +73,7 @@ a {
   border-radius: 2px;
   font-family: "Roboto", sans-serif;
   color: #0066cc;
+  cursor: pointer;
 }
 /* banner 
  =============================================================*/
@@ -221,6 +222,7 @@ a {
   color: #000000a3;
   font-size: 14px;
   line-height: 16px;
+  cursor: pointer;
 }
 
 .footer-bottom {
@@ -228,19 +230,8 @@ a {
   margin-top: 32px;
 }
 
-.footer-section_second {
-  height: 136px;
-  width: 272px;
-  padding-left: 16px;
-}
 
-.footer-section_third {
-  height: 136px;
-  width: 272px;
-  padding-left: 16px;
-}
-
-.footer_ul_four {
+.footer_ul_boxes {
   padding-left: 16px;
   height: 136px;
   width: 272px;
