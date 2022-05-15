@@ -97,6 +97,7 @@
 
 .area-set {
   margin-left: 229px;
+  resize: none;
 }
 
 .select_set {
