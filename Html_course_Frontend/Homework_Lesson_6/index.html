@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homework_6</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body class="body">
+    <form>
+      <div class="header">
+        <div class="name">
+          <a href="#">Contact Manager</a>
+        </div>
+        <div class="action">
+          <select class="select" name="actions">
+            <option value="1">More actions</option>
+            <option value="2">More actions</option>
+            <option value="3">More actions</option>
+            <option value="4">More actions</option>
+          </select>
+        </div>
+      </div>
+      <div class="main">
+        <div class="left-side">
+          <div class="form-item required">
+            <label for="firstName">First Name</label>
+            <input type="text" id="firstName" placeholder="What is your first name?" />
+          </div>
+          <div class="form-item required">
+            <label for="Last_Name">Last Name</label>
+            <input type="text" id="Last_Name" placeholder="What is your last name" />
+          </div>
+          <div class="form-item">
+            <label for="adress">Adress</label>
+            <textarea class="textarea_first" name="adress" id="adress" cols="21" rows="10" placeholder="Write your street, house.."></textarea>
+          </div>
+          <div class="form-item">
+            <label for="city">City</label>
+            <input type="text" id="city" placeholder="Write your city" />
+          </div>
+          <div class="form-item">
+            <laber for="state">State</laber>
+            <select class="select_set">
+              <option value="Select">-Select-</option>
+              <option value="Male">Male</option>
+              <option value="Female">Female</option>
+            </select>
+          </div>
+          <div class="form-item">
+            <label for="zip">Zip</label>
+            <input type="text" id="zip" placeholder="Write your zip" />
+          </div>
+          <div class="form-item">
+            <label for="tel">Home Phone</label>
+            <input type="tel" id="tel" placeholder="+380.." />
+          </div>
+          <div class="form-item required">
+            <label for="tel_work">Work Phone</label>
+            <input type="tel" id="tel_work" placeholder="+380.." />
+          </div>
+          <div class="form-item">
+            <label for="fax">Fax</label>
+            <input type="number" id="fax" placeholder="Write your fax" />
+          </div>
+          <div class="form-item">
+            <div class="form-item-left">
+              <label for="website">Website</label>
+            </div>
+            <div class="form-item-right">
+              <div class="first">
+                <label for="url">URL</label>
+                <input type="url" id="url" placeholder="Write you url" />
+              </div>
+              <div class="two">
+                <label for="link">Link Name</label>
+                <input type="url" id="url" placeholder="Write you link name" />
+              </div>
+            </div>
+          </div>
+          <div class="form-item required">
+            <label for="email">Email Adress</label>
+            <input type="text" id="email" placeholder="Write you Email" />
+          </div>
+        </div>
+        <div class="right-side">
+            <div class="form">
+            <label for="best-time">When is the best time to contact you?</label>
+        
+        <div class="form-right">
+            <input class="radio-set" type="radio" id="best-time" >
+            <label for="best-time">Morning</label><br>
+            <input class="radio-set" type="radio" id="best-time" >
+            <label for="best-time">Afternoon</label><br>
+            <input class="radio-set"type="radio" id="best-time" >
+            <label for="best-time">Evening</label>
+        </div>
+    </div>
+    <div class="form">
+        <label for="best-time">What is the best way to contact you?</label>
+    
+    <div class="form-right-set">
+        <input class="radio-set" type="radio" id="best-way" >
+            <label for="best-way">Phone</label><br>
+            <input class="radio-set" type="radio" id="best-way" >
+            <label for="best-way">Email</label><br>
+            <input class="radio-set"type="radio" id="best-way" >
+            <label for="best-way">Fax</label>
+    </div>
+</div>
+<div class="form-area">
+<label for="message" id="message">Message</label>
+
+<textarea class="area-set" name="message" id="message" cols="30" rows="10" placeholder="Write your message.."></textarea>
+</div>
+    </div>
+        </div>
+      </div>
+      <div class="footer">
+        
+        <input class="submit_but" type="submit" value="Submit" />
+        <input class="reset_but" type="reset" value="Reset" />
+      
+      </div>
+    </form>
+  </body>
+</html>
