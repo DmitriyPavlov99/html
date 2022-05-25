@@ -1,0 +1,20 @@
+@media (max-width: 1240px ) {
+    .container {
+        max-width: 1000px;
+    }
+    .phone {
+        display: none;
+    }
+}
+
+
+
+@media (max-width: 900px ) {
+    
+    .head_menu_set {
+    width: 491px;
+    }
+    .head_menu {
+        padding: 0px 25px 0px 41px;
+    }
+}

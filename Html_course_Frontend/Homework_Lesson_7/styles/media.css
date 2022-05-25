@@ -1,0 +1,629 @@
+@media (max-width: 1180px) {
+  .wrapper {
+    max-width: 940px;
+  }
+}
+
+@media (max-width: 960px) {
+  .wrapper {
+    max-width: 840px;
+  }
+  .info {
+    width: 100%;
+    max-width: 960px;
+  }
+  .box-zone {
+    width: 100%;
+    max-width: 960px;
+  }
+}
+
+@media (max-width: 740px) {
+  .wrapper {
+    max-width: 700px;
+  }
+
+  .inner-header {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .header-menu li:not(:first-child) {
+    margin-left: 10px;
+  }
+
+  .header-menu li::after {
+    margin-left: 10px;
+  }
+}
+
+@media (max-width: 960px) {
+  .wrapper {
+    max-width: 940px;
+  }
+
+  .header-menu {
+    display: none;
+  }
+
+  .logo-desktop {
+    display: none;
+  }
+
+  .logo-mobile {
+    display: block;
+  }
+}
+
+@media (max-width: 480px) {
+  .wrapper {
+    max-width: 400px;
+  }
+
+  .logo span {
+    font-size: 24px;
+  }
+
+  .sign-in {
+    border-radius: 8px;
+    width: 128px;
+    height: 40px;
+  }
+}
+
+@media (max-width: 380px) {
+  .wrapper {
+    max-width: 300px;
+  }
+
+  .logo span {
+    font-size: 24px;
+  }
+
+  .sign-in {
+    border-radius: 8px;
+    width: 128px;
+    height: 40px;
+  }
+}
+/* orange-rectange =======================*/
+
+
+@media (max-width:1540px) {
+  .orange-rectange {
+    left: 17%;
+    transform: rotate(-45deg);
+  }
+
+}
+ /* отключение дубль текста если ширина экрана минимум   ===================================================================
+=============================================================================*/
+@media (min-width:1181px) {
+ 
+  .dubler {
+    display: none;
+  }
+
+
+}
+@media (min-width:961px) {
+ .mini-arrow {
+   display: none;
+ }
+
+
+}
+@media (min-width:482px) {
+.bg {
+  display: none;
+}
+.dots {
+  display: none;
+}
+}
+
+@media (min-width:481px) {
+.pod_block {
+  display: none;
+}
+}
+/* 1180 ===================================================================*/
+@media (max-width:1180px) {
+  .orange-rectange {
+    left: 8%;
+    bottom: 57%;
+    transform: rotate(-45deg);
+  }
+
+.main-text {
+  display: none;
+}
+.info {
+  max-width: 940px;
+}
+.box-zone {
+  max-width: 940px;
+}
+}
+/* 960 ============================================================ */
+@media (max-width:960px) {
+  .orange-rectange {
+    left: 21%;
+    bottom: 49%;
+    transform: rotate(-45deg);
+  }
+.green-text {
+  display: none;
+}
+
+.box-zone {
+  justify-content: center;
+} 
+.left-text {
+  display: none;
+}
+.info {
+  height: 600px;
+}
+.mini-arrow {
+  margin-top: 74px;
+    margin-bottom: 110px;
+}
+}
+/* 760 ============================================================ */
+@media (max-width:740px) {
+  .orange-rectange {
+    left: 32%;
+    bottom: 45%;
+    transform: rotate(-45deg);
+  }
+}
+/* 680 ============================================================ */
+@media (max-width:680px) {
+  .orange-rectange {
+    left: 37%;
+    bottom: 36%;
+    transform: rotate(-45deg);
+  }
+
+  .dubler-text-one {
+    font-size: 72px;
+  }
+  .dubler-text {
+    font-size: 86px;
+  }
+  .sup-text {
+    
+    font-size: 48px;
+    
+}
+}
+
+
+
+/* 480 ============================================================ */
+@media (max-width: 480px) {
+  .main {
+    height: 592px;
+  }
+  .orange-rectange {
+left: 41%;
+bottom: 40%;
+    height: 551px;
+    opacity: 0.6;
+  }
+  .info {
+    width: 400px;
+  }
+  .dubler-text {
+    font-size: 64px;
+    margin-bottom: 8px;
+  }
+  .dubler-text-one {
+    font-size: 48px;
+    margin-bottom: 40px;
+  }
+  .sup-text {
+    letter-spacing: 0.25px;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+.mini-arrow {
+  margin: 8px auto 34px auto;
+  margin-top: 74px;
+      margin-bottom: 110px;
+
+}
+.arrow {
+  display: none;
+}
+.btn_one {
+  justify-content: center;
+  font-size: 14px;
+  width: 130px;
+  height: 37px;
+}
+.bg {
+  transform: scale(1.6);
+}
+  }
+
+/* 380 ============================================================ */
+@media (max-width: 380px) {
+  .orange-rectange {
+    left: 36%;
+    bottom: 44%;
+    height: 501px;
+    opacity: 0.7;
+  }
+.info {
+  width: 300px;
+}
+.pod_block {
+  left: 3%;
+}
+}
+  /* Benefits адаптация всё для него */
+  
+/* 1180 ===================================================================*/
+@media (max-width: 1180px) {
+
+}
+/* 960 ============================================================ */
+@media (max-width: 960px) {
+  .benefits-text-main {
+
+margin-left: 1%;
+max-width: 960px;
+    
+   
+  }
+  .benefits-content {
+    margin-left: 1%;
+    width: 98%;
+    
+  }
+
+  .icon-box {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .table-icon {
+    width: 40%;
+    margin-bottom: 40px;
+}
+.icon-box .table-icon:nth-child(2) {
+justify-content: center;
+}
+
+}
+
+/* 760 ============================================================ */
+@media (max-width: 760px) {
+  
+}
+/* 680 ============================================================ */
+@media (max-width: 680px) {
+  .blue-span-decor { 
+  display: none;
+  }
+  .table-icon {
+    margin-bottom: 40px;
+  }
+}
+/* 480 ============================================================ */
+@media (max-width: 480px) {
+  .table-icon {
+    width: 40%;
+    margin-bottom: 40px;
+  }
+  .active{
+    height: 48px;
+  }
+  
+
+  
+}
+/* 380 ============================================================ */
+@media (max-width: 380px) {
+  .text-help-span {
+    display: none;
+    }
+    .icon-box {
+      justify-content: space-between;
+    }
+    .active {
+      font-size: 18px;
+    }
+.table-icon {
+  margin-bottom: 40px;
+}
+    .icon-text {
+      font-size: 13.5px;
+    }
+    .btn-icon {
+      width: 110px;
+    height: 36px;
+    }
+    .btn-icon a {
+      font-size: 13.5px;
+    }
+}
+
+/* отключение ============================================================ */
+@media (min-width: 761px) {
+  .first-price-box-dubl {
+    display: none;
+  }
+  .two-price-box-dubl {
+    display: none;
+  }
+  .three-price-box-dubl {
+    display: none;
+  }
+}
+
+ /* Pice-block адаптация всё для него */
+/* 1460 ===================================================================*/
+@media (max-width: 1460px) {
+  .box-price-block {
+    
+    width: 308px;
+}
+.box-main-text  {
+  width: 100%;
+}
+}
+/* 1180 ===================================================================*/
+@media (max-width: 1190px) {
+  .price-box {
+    display: flex;
+    flex-wrap: wrap;
+}
+.name-ff-input {
+  width: 207px;   
+}
+.top-input {
+justify-content: flex-start;
+width: 455px;
+
+}
+.textarea-set {
+  width: 267px;
+}
+.area-block {
+justify-content: flex-start;
+}
+}
+
+.btn-send {
+  width: 130px;
+}
+/* 980 ============================================================ */
+@media (max-width: 960px) {
+ .top-input {
+  flex-wrap: wrap;
+  width: 100%;
+  
+ }
+ .name-ff-input {
+  margin-top: 20px;
+  width: 224px;
+ }
+ .name-ff-input:not(:first-child) {
+    margin-left: 0;
+ }
+ .btn-set-send {
+margin-left: 0;
+margin-top: 15px;
+}
+.bottom-input {
+  flex-direction: column;
+}
+.area-block {
+  width: 251px;
+}
+.btn-set-send {
+  width: 130px; 
+}
+.left-footer {
+  margin-left: 1%;
+}
+.right-footer {
+  max-width: 309px;
+}
+}
+/* 760 ============================================================ */
+@media (max-width: 760px) {
+  .price-box {
+    justify-content: center;
+  }
+  .span-price-box {
+    font-weight: 700;
+    font-size: 32px;
+    margin-top: 34px;
+    color: #ADADAD;
+    background-image: none
+  }
+  .span-price-box-dubl {
+    color: #2D3436;
+background-image: url(../images/bg-price.png);
+background-repeat: no-repeat;
+background-position: 1%;
+background-position: bottom;
+  }
+  .main-price-disable {
+    display: none;
+  }
+  .main-price-text {
+    justify-content: center;
+    margin-left: 1%;
+    
+  }
+
+  .main-price-text p::first-letter{
+  text-transform: uppercase;
+  }
+  .sup-price-text {
+    margin-left: 1%;
+    justify-content: center;
+    }
+
+    .first-price-box {
+      display: none;
+    }
+    .two-price-box {
+      display: none;
+    }
+    .three-price-box {
+      display: none;
+    }
+    .three-price-box-dubl {
+      background-color: #6C5CE7;
+      border-radius: 16px;
+    }
+    .btn-price-a {
+     
+      height: 70px;
+    }
+    .btn-price-c{
+     
+      height: 82px;
+    }
+    .box-price-box {
+      padding: 32px;
+      
+    }
+    .box-main-text {
+      color: #55EFC4;
+    }
+.best-a {
+  border: 1px solid #55EFC4;
+  border-radius: 16px;
+  padding: 8px;
+}
+.box-span-text-c {
+  font-weight: 700;
+  font-size: 48px;
+  letter-spacing: -1px;
+  color: #2D3436;
+  text-transform: uppercase;
+  color:white;
+  text-shadow: 0px 4px 0px #000000;
+}
+.help-price-text {
+  color: #6C5CE7;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+}
+.help-price-text-c {
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+}
+.box-span-text {
+  color: #6C5CE7;
+}
+.best {
+  border-color: #858585 ;
+}
+.best-a {
+  color: #55EFC4;
+  letter-spacing: 2.5px;
+}
+.box-main-text {
+  color: #2D3436;
+}
+.first-price-box-dubl {
+  box-shadow: 0px 4px 6px rgb(38 50 56);
+  border-radius: 16px;
+  margin-bottom: 24px;
+}
+.two-price-box-dubl {
+  box-shadow: 0px 4px 6px rgb(38 50 56);
+  border-radius: 16px;
+  margin-bottom: 24px;
+}
+.btn-price-set-a a{
+  color: #2D3436;
+}
+.btn-price-set {
+  background-color: #6C5CE7;
+}
+.btn-price-set a{
+  background-color: #6C5CE7;
+  color: white;
+}
+.btn-price-set-a {
+  background-color: white;
+}
+.btn-price-set-a a{
+  background-color: white;
+}
+}
+.back img {
+  position: absolute;
+    top: 403%;
+}
+
+
+/* 680 ============================================================ */
+@media (max-width: 680px) {
+
+}
+/* 480 ============================================================ */
+@media (max-width: 480px) {
+  .main-price-text {
+    font-weight: 700;
+font-size: 32px;
+justify-content: left;
+  }
+  .sup-price-text {
+    justify-content: left;
+  }
+
+  .box-text {
+    font-size: 14px;
+  }
+
+  .box-price-text {
+    font-size: 24px;
+  }
+  .box-span-text{
+    font-size: 24px;  
+  }
+  .box-span-text-c {
+    font-size: 24px;  
+    letter-spacing: -1px;
+    
+  }
+}
+/* 380 ============================================================ */
+@media (max-width: 380px) {
+ .btn-price-set {
+  width: 237px;
+ }
+ .box-main-text {
+  width: 94%;
+ }
+ .box-price-block {
+  width: 253px;
+ }
+}
+/* 960 отключение ============================================================ */
+@media (max-width:760px) {
+  .left-right-box {
+    display: none;
+  }
+  .footer-bg {
+    display: none;
+  }
+}
+/* 960 отключение ============================================================ */
+@media (min-width:761px) {
+  .dubler-footer {
+    display: none;
+  }
+
+  
+}
+
