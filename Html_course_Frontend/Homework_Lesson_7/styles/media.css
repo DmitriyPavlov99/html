@@ -322,6 +322,8 @@
   .btn-icon {
     width: 110px;
     height: 36px;
+    font-size: 15px;
+
   }
   .btn-icon a {
     font-size: 13.5px;
@@ -536,6 +538,7 @@
   }
   .btn-price-set {
     background-color: #6c5ce7;
+    color: white;
   }
   .btn-price-set a {
     background-color: #6c5ce7;
@@ -543,6 +546,7 @@
   }
   .btn-price-set-a {
     background-color: white;
+    color: black;
   }
   .btn-price-set-a a {
     background-color: white;

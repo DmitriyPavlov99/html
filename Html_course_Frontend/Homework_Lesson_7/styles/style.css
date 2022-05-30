@@ -318,20 +318,23 @@
   margin-bottom: 23px;
 }
 .btn-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 146px;
   height: 48px;
+  border: 1px solid #adadad;
   background-color: #fff;
-  border-color: #adadad;
   border-radius: 16px;
-}
-.btn-icon a {
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
   letter-spacing: 0.2px;
   text-decoration: none;
+  color: #6C5CE7;
 }
+
 
 .icon-back img {
   background-color: #0984e3;
@@ -478,8 +481,28 @@ li img {
   border-radius: 16px;
   background-color: white;
   height: 64px;
+  justify-content: center;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 18px;
+    height: 64px;
+    color: white;
+    color: #6c5ce7;
+    text-decoration: none;
 }
 
+.btn-price-set-a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 0.25px;
+  font-size: 24px;
+  text-decoration: none;
+  color: white;
+  font-family: 'Inter';
+  font-weight: 700;
+}
 .btn-price-set a {
   font-weight: 700;
   font-size: 18px;
@@ -487,6 +510,7 @@ li img {
   color: #6c5ce7;
   background-color: #fff;
   text-decoration: none;
+  
 }
 
 .btn-price-b {
