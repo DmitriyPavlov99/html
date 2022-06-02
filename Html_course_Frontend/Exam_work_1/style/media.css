@@ -50,7 +50,7 @@
 }
 }
 /* Small Devices, Tablets */
-@media (max-width: 688px) {
+@media (max-width: 692px) {
   .main_article {
     justify-content: center;
   }
@@ -64,12 +64,16 @@
     font-size: 78px;
   }
   .main {
-    height: 1304px;
+    max-height: 1304px;
   }
 }
 
 /* Extra Small Devices , Phones */
-@media (max-width: 480px) {
+@media (max-width: 580px) {
+  .main_photo {
+    width: 322px;
+    height: auto;
+  }
 }
 
 /* Custom iPhone Retina */
