@@ -154,7 +154,7 @@ table {
 .header__menu .header__menu-set .menu__set .menu__set-link {
   font-size: 16px;
   text-decoration: none;
-  color: #1E266D;
+  color: #1e266d;
 }
 
 .header__menu .header__menu-set .menu__set .menu__set-link:hover {
@@ -176,7 +176,7 @@ table {
 }
 
 .phone__link {
-  color: #1E266D;
+  color: #1e266d;
   text-decoration: none;
 }
 
@@ -223,7 +223,7 @@ table {
 .mini__menu {
   display: none;
   text-decoration: none;
-  color: #1E266D;
+  color: #1e266d;
   font-size: 16px;
   margin-left: 1%;
 }
@@ -264,7 +264,7 @@ table {
 
 .sub__menu-link {
   text-decoration: none;
-  color: #1E266D;
+  color: #1e266d;
   font-size: 16px;
 }
 
@@ -297,8 +297,8 @@ table {
   }
 }
 
-/* 830 */
-@media (max-width: 830px) {
+/* 843 */
+@media (max-width: 843px) {
   .sub__menu {
     gap: 27px;
   }
