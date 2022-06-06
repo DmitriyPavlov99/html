@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="./style/reset.css" />
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="./style/media.css" />
+    <title>Анкета</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1 id="title" class="text-center">Анкета</h1>
+        <p id="description" class="description text-center">
+          Спасибо, что нашли время, чтобы помочь нам улучшить платформу
+        </p>
+      </header>
+      <form id="survey-form">
+        <div class="form-group">
+          <label id="name-label" for="name">Имя</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            class="form-control"
+            placeholder="Введите ваше имя"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label id="email-label" for="email">Електронная почта</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            class="form-control"
+            placeholder="Введите вашу електронную почту"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label id="number-label" for="number"
+            >Возраст<span class="clue">(optional)</span></label
+          >
+          <input
+            type="number"
+            name="age"
+            id="number"
+            min="10"
+            max="99"
+            class="form-control"
+            placeholder="Ваш возраст"
+          />
+        </div>
+        <div class="form-group">
+          <p>Какой вариант лучше всего описывает вашу текущую роль?</p>
+          <select id="dropdown" name="role" class="form-control" required>
+            <option disabled selected value>Выберете текущую роль</option>
+            <option value="student">Студент</option>
+            <option value="job">Работаю на полную ставку</option>
+            <option value="learner">Учусь полный рабочий день</option>
+            <option value="preferNo">Предпочитаю не говорить</option>
+            <option value="other">Другое</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <p>Могли бы вы порекомендовать freeCodeCamp другу?</p>
+          <label>
+            <input
+              name="user-recommend"
+              value="Определенно"
+              type="radio"
+              class="input-radio"
+              checked
+            />Определенно</label
+          >
+          <label>
+            <input
+              name="user-recommend"
+              value="Возможно"
+              type="radio"
+              class="input-radio"
+            />Возможно</label
+          >
+
+          <label
+            ><input
+              name="user-recommend"
+              value="Не уверена"
+              type="radio"
+              class="input-radio"
+            />Не уверена</label
+          >
+        </div>
+
+        <div class="form-group">
+          <p>Какая ваша любимая функция freeCodeCamp?</p>
+          <select id="most-like" name="mostLike" class="form-control" required>
+            <option disabled selected value>Выберите вариант</option>
+            <option value="Тесты">Тесты</option>
+            <option value="Проекты">Проекты</option>
+            <option value="Сообщество">Сообщество</option>
+            <option value="Открытый исходный код">Открытый исходный код</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <p>
+            Что бы вы хотели улучшить?
+            <span class="clue">(Check all that apply)</span>
+          </p>
+
+          <label
+            ><input
+              name="prefer"
+              value="Интерфейсные проекты"
+              type="checkbox"
+              class="input-checkbox"
+            />Интерфейсные проекты</label
+          >
+          <label>
+            <input
+              name="prefer"
+              value="Бэкэнд проект"
+              type="checkbox"
+              class="input-checkbox"
+            />Бэкэнд проекты</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="Визуализация данных"
+              type="checkbox"
+              class="input-checkbox"
+            />Визуализация данных</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="Тесты"
+              type="checkbox"
+              class="input-checkbox"
+            />Тесты</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="Сообщество с открытым исходным кодом"
+              type="checkbox"
+              class="input-checkbox"
+            />Сообщество с открытым исходным кодом</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="Справочные комнаты Gitter"
+              type="checkbox"
+              class="input-checkbox"
+            />Справочные комнаты Gitter</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="Видео"
+              type="checkbox"
+              class="input-checkbox"
+            />Видео</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="Городские встречи"
+              type="checkbox"
+              class="input-checkbox"
+            />Городские встречи</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="Вики"
+              type="checkbox"
+              class="input-checkbox"
+            />Вики</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="Форум"
+              type="checkbox"
+              class="input-checkbox"
+            />Форум</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="Дополнительные курсы"
+              type="checkbox"
+              class="input-checkbox"
+            />Дополнительные курсы</label
+          >
+        </div>
+
+        <div class="form-group">
+          <p>Любые комментарии или предложения?</p>
+          <textarea
+            id="comments"
+            class="input-textarea"
+            name="comment"
+            placeholder="Введити ваши комментарии"
+          ></textarea>
+        </div>
+
+        <div class="form-group">
+          <button type="submit" id="submit" class="submit-button">
+            Отправить
+          </button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
