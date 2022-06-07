@@ -1,9 +1,9 @@
+.back {
+    background-image: url(../images/main_bg.jpg);
+}
 .main {
     height: 900px;
     width: 100%;
-    background-image: url(../images/main_bg.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 .main__name {
     display: flex;
