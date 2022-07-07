@@ -29,10 +29,11 @@
     color: white;
     .social__icons {
       text-decoration: none;
-      color: white;
+color: white;
       &:hover {
         transform: translateY(8px);
         transition: 0.7s;
+
       }
     }
   }
